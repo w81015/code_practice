@@ -2,7 +2,7 @@
 
 # Practice Programs As a Beginner
 
-This collection consists of eight simple Python programs designed for beginners to practice basic programming concepts, ranging from text file manipulation, data analysis, to conditional judgments and loops.
+This folder contains eight simple Python programs designed for beginners' practice. The programs cover basic syntax such as conditional statements, loops, text file handling, and data analysis. It was created in 2021.
 
 ## Programs Overview
 
@@ -21,7 +21,7 @@ Each program focuses on applying specific Python syntax and logic, making it an 
 
 # 初學者練習程式
 
-這個集合包括了八個簡單的Python程式，專為初學者設計，涵蓋了從文字檔案處理、數據分析到條件判斷和迴圈等基本編程概念的練習。
+這個資料夾包含了八個簡單的Python程式，為初學時的練習。程式涵蓋了條件判斷、迴圈、文字檔案處理、數據分析到等基本語法。首次創立時間為2021年。
 
 ## 程式概覽
 
