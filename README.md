@@ -1,6 +1,6 @@
 [中文版](#初學者練習程式)
 
-# Practice Programs As a Beginner
+# Beginner's Practice Programs
 
 This folder contains eight simple Python programs designed for beginners' practice. The programs cover basic syntax such as conditional statements, loops, text file handling, and data analysis. It was created in 2021.
 
