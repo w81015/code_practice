@@ -1,5 +1,66 @@
-# 初學練習：簡易記帳程式
-# 記帳程式開發階段
+[中文版](#簡易記帳程式)
+
+# Simple Accounting Program
+
+## Phase 1: Basic Accounting Function
+### Features:
+- Input product names.
+- Enter `q` to end the program.
+- Print all entered products.
+
+### Key Points of the Code:
+- Use a `while` loop to wait for user input.
+- Use `if` condition to decide when to exit the loop.
+- Store product names in a `products` list.
+
+## Phase 2: Adding Price Input
+### Features:
+- In addition to the product name, the user is also asked to input the product price.
+- Print each product and its price.
+
+### Key Points of the Code:
+- Create a mini list (name and price) for each product.
+- Add the mini list to the larger list `products`.
+
+## Phase 3: Price Type Conversion and Saving
+### Features:
+- Convert the input price from string to integer.
+- Store product names and prices in the `products.csv` file.
+
+### Key Points of the Code:
+- Use `int()` to convert the price type.
+- Use the `open()` function and `write()` method to write data to a CSV file.
+
+## Phase 4: File Encoding Adjustment and Adding Titles
+### Features:
+- Add a title row in the CSV file.
+- Adjust file encoding to `utf-8-sig` to solve encoding issues.
+
+### Key Points of the Code:
+- Write the title row at the beginning of the file writing process.
+- Specify the file encoding format.
+
+## Phase 5: Reading Existing Files
+### Features:
+- Read and display the existing product list before inputting new products.
+- Skip the title row of the CSV file.
+
+### Key Points of the Code:
+- Use the `open()` function and `read()` method to read the file.
+- Handle each line of data with `strip()` and `split()`.
+
+## Phase 6: Checking File Existence
+### Features:
+- Check if the `products.csv` file exists before starting to input products.
+- If it exists, read the file; if not, display a message.
+
+### Key Points of the Code:
+- Use `os.path.isfile()` to check if the file exists.
+- Decide whether to read the file based on the check result.
+
+---
+
+# 簡易記帳程式
 
 ## 第一階段：基本記帳功能
 ### 功能：

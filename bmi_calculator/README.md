@@ -1,4 +1,34 @@
-# 初學練習
+[中文版](#bmi計算及分類程式)
+
+# BMI Calculation and Classification Program
+
+This Python program is designed to calculate the user's BMI (Body Mass Index) and classify the weight status based on the calculation result.
+
+## Feature Description
+- Requests the user to input height (cm) and weight (kg).
+- Converts height to meters (m).
+- Calculates the BMI value: `BMI = weight(kg) / (height(m) * height(m))`.
+- Provides weight classification based on the BMI value.
+
+## BMI Classification Standards
+- `BMI < 18.5`: Underweight
+- `18.5 <= BMI < 24`: Normal range
+- `24 <= BMI < 27`: Overweight
+- `27 <= BMI < 30`: Moderately obese
+- `30 <= BMI < 35`: Severely obese
+- `BMI >= 35`: Very severely obese
+
+## Program Flow
+1. First, obtain the input values of height and weight from the user.
+2. Convert the input height from centimeters to meters.
+3. Calculate the BMI value and convert it to a float type for accuracy.
+4. Classify the user's weight status through a series of `if-elif-else` conditional statements based on the BMI value.
+5. Output the user's BMI value and its corresponding weight status classification.
+
+This program offers an easy way to understand one's weight status and provides health advice based on the BMI value.
+
+---
+
 # BMI計算及分類程式
 
 此Python程式用於計算用戶的BMI（Body Mass Index，身體質量指數），並根據計算結果將用戶的體重狀態分類。
